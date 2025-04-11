@@ -13,7 +13,7 @@ app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads/processed/'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-MODEL_PATH = r"D:\Lakshya\Project\ICSS_VSCode\PROJECT\ICSS Web App\random_forest_model.pkl"
+MODEL_PATH = r"D:\KOEL\ICSS\Deployment - Copy\icss-backend\model\random_forest_model.pkl"
 
 # ✅ Function to Load Model
 def load_model():
